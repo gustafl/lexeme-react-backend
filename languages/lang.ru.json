@@ -1,1 +1,7 @@
-{ "language": "Russian" }
+{
+    "language": {
+        "name": "ru",
+        "label": "Russian"
+    },
+    "lexicalCategories": []
+}
