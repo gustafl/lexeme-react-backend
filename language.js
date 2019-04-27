@@ -25,9 +25,10 @@ module.exports = function(app) {
         let code = req.params.code;
         let file = './languages/lang.' + code + '.json';
         fs.readFile(file, 'utf8', function (err, data) {
-            if (err) throw err;
-            let obj = JSON.parse(data);
-            res.json(obj);
+            if (!err && data) {
+                let obj = JSON.parse(data);
+                res.json(obj);
+            }
         });
     });
 }
