@@ -139,7 +139,8 @@
                     "values": [ true, false ],
                     "display": true
                 }
-            ]
+            ],
+            "display": true
         },
         {
             "name": "verb",
@@ -194,7 +195,8 @@
                     ],
                     "display": true
                 }
-            ]
+            ],
+            "display": true
         },
         {
             "name": "adjective",
@@ -234,31 +236,38 @@
                     ],
                     "display": true
                 }
-            ]
+            ],
+            "display": true
         },
         {
             "name": "pronoun",
-            "label": "Pronoun"
+            "label": "Pronoun",
+            "display": true
         },
         {
             "name": "adverb",
-            "label": "Adverb"
+            "label": "Adverb",
+            "display": true
         },
         {
             "name": "determiner",
-            "label": "Determiner"
+            "label": "Determiner",
+            "display": true
         },
         {
             "name": "preposition",
-            "label": "Preposition"
+            "label": "Preposition",
+            "display": true
         },
         {
             "name": "conjugation",
-            "label": "Conjugation"
+            "label": "Conjugation",
+            "display": true
         },
         {
             "name": "interjection",
-            "label": "Interjection"
+            "label": "Interjection",
+            "display": true
         }
     ]
 }
