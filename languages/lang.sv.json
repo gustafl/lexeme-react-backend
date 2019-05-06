@@ -1,236 +1,204 @@
 {
     "language": {
-        "name": "sv",
-        "label": "Swedish"
+        "id": "sv",
+        "name": "Swedish"
     },
     "lexicalCategories": [
         {
-            "name": "noun",
-            "label": "Noun",
+            "id": "noun",
+            "name": "Noun",
             "grammaticalCategories": [
                 { 
-                    "name": "gender",
-                    "label": "Gender",
+                    "id": "gender",
+                    "name": "Gender",
+                    "type": "enum",
                     "values": [
                         {
-                            "name": "n-gender",
-                            "label": "N-gender",
+                            "id": "n-gender",
+                            "name": "N-gender",
                             "display": true
                         },
                         {
-                            "name": "t-gender",
-                            "label": "T-gender",
+                            "id": "t-gender",
+                            "name": "T-gender",
                             "display": true
                         }
                     ],
                     "display": true
                 },
                 { 
-                    "name": "number",
-                    "label": "Number",
+                    "id": "number",
+                    "name": "Number",
+                    "type": "enum",
                     "values": [
                         {
-                            "name": "singular",
-                            "label": "Singular",
+                            "id": "singular",
+                            "name": "Singular",
                             "display": true
                         },
                         {
-                            "name": "plural",
-                            "label": "Plural",
+                            "id": "plural",
+                            "name": "Plural",
                             "display": true
                         }
                     ],
                     "display": true
                 },
                 { 
-                    "name": "case",
-                    "label": "Case",
+                    "id": "case",
+                    "name": "Case",
+                    "type": "enum",
                     "values": [
                         {
-                            "name": "nominative",
-                            "label": "Nominative",
+                            "id": "nominative",
+                            "name": "Nominative",
                             "display": true
                         },
                         {
-                            "name": "genitive",
-                            "label": "Genitive",
+                            "id": "genitive",
+                            "name": "Genitive",
                             "display": true
                         }
                     ],
                     "display": true
                 },
                 { 
-                    "name": "definiteness",
-                    "label": "Definiteness",
+                    "id": "definiteness",
+                    "name": "Definiteness",
+                    "type": "enum",
                     "values": [
                         {
-                            "name": "definite",
-                            "label": "Definite",
+                            "id": "definite",
+                            "name": "Definite",
                             "display": true
                         },
                         {
-                            "name": "indefinite",
-                            "label": "Indefinite",
+                            "id": "indefinite",
+                            "name": "Indefinite",
                             "display": true
                         }
                     ],
                     "display": true
                 },
                 { 
-                    "name": "properCommon",
-                    "label": "Proper/Common",
+                    "id": "proper-common",
+                    "name": "Proper/Common",
+                    "type": "enum",
                     "values": [
                         {
-                            "name": "proper",
-                            "label": "Proper",
+                            "id": "proper",
+                            "name": "Proper",
                             "display": true
                         },
                         {
-                            "name": "common",
-                            "label": "Common",
+                            "id": "common",
+                            "name": "Common",
                             "display": true
                         }
                     ],
                     "display": true
                 },
                 { 
-                    "name": "abstractConcrete",
-                    "label": "Abstract/Concrete",
+                    "id": "abstract-concrete",
+                    "name": "Abstract/Concrete",
+                    "type": "enum",
                     "values": [
                         {
-                            "name": "abstract",
-                            "label": "Abstract",
+                            "id": "abstract",
+                            "name": "Abstract",
                             "display": true
                         },
                         {
-                            "name": "concrete",
-                            "label": "Concrete",
+                            "id": "concrete",
+                            "name": "Concrete",
                             "display": true
                         }
                     ],
                     "display": true
                 },
                 { 
-                    "name": "countableUncountable",
-                    "label": "Countable/Uncountable",
+                    "id": "countable-uncountable",
+                    "name": "Countable/Uncountable",
+                    "type": "enum",
                     "values": [
                         {
-                            "name": "countable",
-                            "label": "Countable",
+                            "id": "countable",
+                            "name": "Countable",
                             "display": true
                         },
                         {
-                            "name": "uncountable",
-                            "label": "Uncountable",
+                            "id": "uncountable",
+                            "name": "Uncountable",
                             "display": true
                         }
                     ],
                     "display": true
                 },
                 {
-                    "name": "collectiveNoun",
-                    "label": "Collective Noun",
-                    "values": [ true, false ],
+                    "id": "collective",
+                    "name": "Collective Noun",
+                    "type": "bool",
                     "display": true
                 },
                 {
-                    "name": "massNoun",
-                    "label": "Mass Noun",
-                    "values": [ true, false ],
+                    "id": "mass",
+                    "name": "Mass Noun",
+                    "type": "bool",
                     "display": true
                 }
             ],
             "display": true
         },
         {
-            "name": "verb",
-            "label": "Verb",
+            "id": "verb",
+            "name": "Verb",
             "grammaticalCategories": [
                 {
-                    "name": "tense",
-                    "label": "Tense",
+                    "id": "tense",
+                    "name": "Tense",
+                    "type": "enum",
                     "values": [
                         {
-                            "name": "present",
-                            "label": "Present",
+                            "id": "present",
+                            "name": "Present",
                             "display": true
                         },
                         {
-                            "name": "preterite",
-                            "label": "Preterite",
+                            "id": "preterite",
+                            "name": "Preterite",
                             "display": true
                         },
                         {
-                            "name": "perfect",
-                            "label": "Perfect",
+                            "id": "perfect",
+                            "name": "Perfect",
                             "display": true
                         },
                         {
-                            "name": "pluperfect",
-                            "label": "Pluperfect",
+                            "id": "pluperfect",
+                            "name": "Pluperfect",
                             "display": true
                         },
                         {
-                            "name": "future",
-                            "label": "Future",
+                            "id": "future",
+                            "name": "Future",
                             "display": true
                         }
                     ],
                     "display": true
                 },
                 {
-                    "name": "transitiveIntransitive",
-                    "label": "Transitive/Intransitive",
+                    "id": "transitive-intransitive",
+                    "name": "Transitive/Intransitive",
+                    "type": "enum",
                     "values": [
                         {
-                            "name": "transitive",
-                            "label": "Transitive",
+                            "id": "transitive",
+                            "name": "Transitive",
                             "display": true
                         },
                         {
-                            "name": "intransitive",
-                            "label": "Intransitive",
-                            "display": true
-                        }
-                    ],
-                    "display": true
-                }
-            ],
-            "display": true
-        },
-        {
-            "name": "adjective",
-            "label": "Adjective",
-            "grammaticalCategories": [
-                {
-                    "name": "gender",
-                    "label": "Gender",
-                    "values": [
-                        {
-                            "name": "n-gender",
-                            "label": "N-gender",
-                            "display": true
-                        },
-                        {
-                            "name": "t-gender",
-                            "label": "T-gender",
-                            "display": true
-                        }
-                    ],
-                    "display": true
-                },
-                {
-                    "name": "number",
-                    "label": "Number",
-                    "values": [
-                        {
-                            "name": "singular",
-                            "label": "Singular",
-                            "display": true
-                        },
-                        {
-                            "name": "plural",
-                            "label": "Plural",
+                            "id": "intransitive",
+                            "name": "Intransitive",
                             "display": true
                         }
                     ],
@@ -240,33 +208,76 @@
             "display": true
         },
         {
-            "name": "pronoun",
-            "label": "Pronoun",
+            "id": "adjective",
+            "name": "Adjective",
+            "grammaticalCategories": [
+                {
+                    "id": "gender",
+                    "name": "Gender",
+                    "type": "enum",
+                    "values": [
+                        {
+                            "id": "n-gender",
+                            "name": "N-gender",
+                            "display": true
+                        },
+                        {
+                            "id": "t-gender",
+                            "name": "T-gender",
+                            "display": true
+                        }
+                    ],
+                    "display": true
+                },
+                {
+                    "id": "number",
+                    "name": "Number",
+                    "type": "enum",
+                    "values": [
+                        {
+                            "id": "singular",
+                            "name": "Singular",
+                            "display": true
+                        },
+                        {
+                            "id": "plural",
+                            "name": "Plural",
+                            "display": true
+                        }
+                    ],
+                    "display": true
+                }
+            ],
             "display": true
         },
         {
-            "name": "adverb",
-            "label": "Adverb",
+            "id": "pronoun",
+            "name": "Pronoun",
             "display": true
         },
         {
-            "name": "determiner",
-            "label": "Determiner",
+            "id": "adverb",
+            "name": "Adverb",
             "display": true
         },
         {
-            "name": "preposition",
-            "label": "Preposition",
+            "id": "determiner",
+            "name": "Determiner",
             "display": true
         },
         {
-            "name": "conjugation",
-            "label": "Conjugation",
+            "id": "preposition",
+            "name": "Preposition",
             "display": true
         },
         {
-            "name": "interjection",
-            "label": "Interjection",
+            "id": "conjugation",
+            "name": "Conjugation",
+            "display": true
+        },
+        {
+            "id": "interjection",
+            "name": "Interjection",
             "display": true
         }
     ]
